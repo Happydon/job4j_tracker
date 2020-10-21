@@ -18,11 +18,6 @@ public class PassportOffice {
 
 
     public Citizen get(String passport) {
-        if (!citizens.containsKey(passport)){
-            System.out.println("There is no such citizen");
-            return null;
-        } else {
-            return citizens.get(passport);
-        }
+        return citizens.get(passport);
     }
 }
