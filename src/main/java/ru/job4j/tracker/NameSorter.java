@@ -1,6 +1,6 @@
 package ru.job4j.tracker;
 
-import ru.job4j.collection.SortByNameItem;
+import ru.job4j.collection.ReverseSortByNameItem;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -16,7 +16,7 @@ public class NameSorter {
         System.out.println(items);
         Collections.sort(items);
         System.out.println(items);
-        Collections.sort(items, new SortByNameItem());
+        Collections.sort(items, new ReverseSortByNameItem());
         System.out.println(items);
     }
 }
