@@ -3,6 +3,7 @@ package ru.job4j.collection;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class NotifyAccountTest {
                 new Account("123", "Petr Arsentev", "000001")
         );
         HashSet<Account> expect = new HashSet<>(
-                Arrays.asList(
+                Collections.singletonList(
                         new Account("123", "Petr Arsentev", "000001")
                 )
         );

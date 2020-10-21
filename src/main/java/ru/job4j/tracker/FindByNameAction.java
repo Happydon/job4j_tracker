@@ -19,8 +19,8 @@ public class FindByNameAction implements UserAction {
         String key = input.askStr("Enter name: ");
         List<Item> item = tracker.findByName(key);
         if (item.size() != 0) {
-            for (int i = 0; i < item.size(); i++) {
-                out.println(item.get(i));
+            for (Item value : item) {
+                out.println(value);
             }
         } else {
            out.println("Заявка по id не найдена");
