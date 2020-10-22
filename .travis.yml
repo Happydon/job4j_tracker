@@ -17,7 +17,7 @@ notifications:
     recipients:
       -ilijadavincy@gmail.com
     on_success: never # default: change
-    on_failure: always # defa,ult: always
+    on_failure: always # default: always
     env:
       global:
         - CODECOV_TOKEN="4c411a95-7ee4-4d12-9550-a52070869f64"
