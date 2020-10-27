@@ -6,6 +6,7 @@ public class DummyDic {
         System.out.println(translation);
         return translation;
     }
+
     public static void main(String[] args) {
         DummyDic samsung = new DummyDic();
         samsung.engToRus("Apple");

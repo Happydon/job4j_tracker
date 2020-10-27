@@ -19,6 +19,7 @@ public class Converter {
      * @param value value in rubles.
      * @return value in Dollar.
      */
+
     public static int rubleToDollar(int value) {
         return value / 70;
     }
@@ -27,6 +28,7 @@ public class Converter {
      * @param value value in rubles.
      * @return value in Funt.
      */
+
     public static int rubleToFunt(int value) {
         return value / 90;
     }
@@ -35,6 +37,7 @@ public class Converter {
      * @param value value in dollars.
      * @return value in Rubles.
      */
+
     public static int dollarToRuble(int value) {
         return value * 70;
     }
@@ -43,6 +46,7 @@ public class Converter {
      * @param value value in euros.
      * @return value in Rubles.
      */
+
     public static int euroToRuble(int value) {
         return value * 80;
     }
@@ -51,6 +55,7 @@ public class Converter {
      * @param value value in funts.
      * @return value in Rubles.
      */
+
     public static int funtToRuble(int value) {
         return value * 70;
     }
@@ -58,6 +63,7 @@ public class Converter {
      * Main.
      * @param args - args.
      */
+
     public static void main(String[] args) {
         int in = 160;
         int expected = 2;

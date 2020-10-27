@@ -9,6 +9,10 @@ public class College {
         student.setGroup("some group");
         student.setEnrolled(new Date());
 
-        System.out.println(student.getfIO() + " enrolled " + student.getGroup() + " in " + student.getEnrolled());
+        System.out.println(student.getfIO()
+                + " enrolled "
+                + student.getGroup()
+                + " in "
+                + student.getEnrolled());
     }
 }

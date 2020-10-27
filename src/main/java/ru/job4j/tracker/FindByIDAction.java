@@ -8,6 +8,7 @@ public class FindByIDAction implements UserAction {
     public FindByIDAction(Output out) {
         this.out = out;
     }
+
     @Override
     public String name() {
         return "Find by ID";

@@ -7,11 +7,13 @@ public class Triangle {
     private Point first;
     private Point second;
     private Point third;
+
     public Triangle(Point ap, Point bp, Point cp) {
         this.first = ap;
         this.second = bp;
         this.third = cp;
     }
+
     public double period(double ab, double ac, double bc) {
         return (ab + ac + bc) / 2;
     }
