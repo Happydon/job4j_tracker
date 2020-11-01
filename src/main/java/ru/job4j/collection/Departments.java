@@ -13,7 +13,6 @@ public class Departments {
             }
         }
         List<String> list = new ArrayList<>(tmp);
-        sortAsc(list);
         return list;
     }
 
